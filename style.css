@@ -4,6 +4,7 @@ body {
 
 .header-hero {
   background-color: #1F2937;
+  font-size: 18px;
 }
 
 .main-title {
@@ -13,7 +14,6 @@ body {
 }
 
 .subtext,.links {
-  font-size: 18px;
   color: #E5E7EB;
   font-weight: 400;
 }
@@ -27,9 +27,20 @@ body {
 button {
   background-color: #3882F6;
   color: #F9FAF8;
+  border-radius: 6px;
+  border-color: #3882F6;
+  font-size: inherit;
+  font-weight: bold;
+  padding: 6px 30px;
 }
 
 .image {
   color: #E5E7EB;
   background-color: grey;
+}
+
+.links {
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
 }
