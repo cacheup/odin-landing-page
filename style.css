@@ -43,7 +43,7 @@ button {
   padding: 6px 30px;
 }
 
-.image {
+.hero .image {
   color: #E5E7EB;
   background-color: grey;
   flex: 1;
