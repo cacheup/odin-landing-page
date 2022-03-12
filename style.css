@@ -14,7 +14,7 @@ body {
 
 .main-title {
   font-size: 48px;
-  font-weight:bolder;
+  font-weight:800;
   color: #F9FAF8;
 }
 
@@ -23,7 +23,7 @@ body {
   font-weight: 400;
 }
 
-.header {
+.header-hero .header {
   font-size: 24px;
   color: #F9FAF8;
   font-weight: bold;
@@ -74,4 +74,28 @@ button {
 .subtext {
   padding-right: 30px;
   padding-bottom: 13px;
+}
+
+.infographic {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.information .header {
+  font-size: 36px;
+  font-weight:800;
+  color: #1F2937;
+}
+
+.infographic li {
+  color:darkslategray;
+  font-size: 18px;
+  width: 175px;
+}
+
+.infographic .image {
+  border: 5px solid #3882F6;
+  height: 175px;
+  border-radius: 15px;
 }
