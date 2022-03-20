@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0px;
 }
 
 .header-hero {
@@ -172,4 +173,12 @@ button {
 
 button:hover {
   background: #176df7;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 40px 0px;
+  text-align: center;
+  font-size: 18px;
 }
